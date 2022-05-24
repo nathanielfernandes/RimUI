@@ -20,8 +20,10 @@ token.subscribe((value) => {
 });
 
 
-export const endpoint = readable("http://localhost:80");
-export const cdn_endpoint = readable("http://localhost:80");
+// export const endpoint = readable("http://localhost:80");
+// export const cdn_endpoint = readable("http://localhost:80");
+export const endpoint = readable("https://rim.ncp.nathanferns.xyz");
+export const cdn_endpoint = readable("https://rimu.b-cdn.net");
 
 
 export const images: Writable<Array<string>> = writable([]);
