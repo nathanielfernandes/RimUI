@@ -28,7 +28,7 @@
 
   :root {
 	--white: white;
-	--offwhite: #f8f8ff;
+	--offwhite: #e6e6f0;
    	--textwhite: #eee;
 	--textsecondarywhite: #696969;
 	--accentwhite: white;
@@ -183,6 +183,13 @@ button:disabled {
 	transform: translateY(-4px) translateY(3px);
     background-color: var(--special-color-disabled);
 	cursor: default !important;
+}
+
+.btn-disabled {
+	/* color: var(--text-color-disabled); */
+	box-shadow: none;
+	transform: translateY(-4px) translateY(3px);
+    /* background-color: var(--special-color-disabled); */
 }
 
 button:not(:disabled):active {

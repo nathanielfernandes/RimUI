@@ -104,7 +104,7 @@
   }
 
   .left {
-    width: 25rem;
+    width: 28rem;
     margin-right: 1rem;
   }
 
